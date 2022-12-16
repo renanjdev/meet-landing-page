@@ -1,0 +1,78 @@
+body {
+    border: 1px solid red;
+    width: 1440px;
+    
+    background: #F2F2F2;
+    margin: auto;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    
+}
+
+header {
+    margin-top: 80px;
+    margin-bottom: 61px;
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+
+.mainMid h1 {
+    width: 445px;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+    color: #28283D;
+   
+}
+
+.mainMid p {  
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #87879D;
+}
+
+.btnMain {
+    padding: 16px 40px; 
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+    border-radius: 29px;
+    
+    
+   
+    
+}
+
+.btnMain.-first {
+    background: #4D96A9;
+    margin-right: 8px;
+}
+
+.btnMain.-first span {
+    color: #8FE3F9;
+}
+
+.btnMain.-second {
+    background: #855FB1;
+    padding: 16px 29px;
+    margin-left: 8px;
+}
+
+.btnMain.-first:hover {
+    background: #71C0D4;
+}
+
+.btnMain.-second:hover {
+    background: #B18BDD;
+
+}    
