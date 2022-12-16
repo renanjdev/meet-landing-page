@@ -24,7 +24,6 @@ main {
 }
 
 .mainMid h1 {
-   
     font-size: 4rem;
     font-weight: 900;
     line-height: 4rem;
@@ -56,7 +55,6 @@ main {
 
 .btnMain.-first {
     background: #4D96A9;
-    
 }
 
 .btnMain.-first span {
@@ -66,7 +64,6 @@ main {
 .btnMain.-second {
     background: #855FB1;
     padding: 1rem 1.8125rem;
-    
 }
 
 .btnMain.-first:hover {
@@ -75,7 +72,6 @@ main {
 
 .btnMain.-second:hover {
     background: #B18BDD;
-
 }    
 
 .heroLeft {
@@ -86,23 +82,52 @@ main {
     margin-right: -2rem;
 }
 
-
-
-
 section .step {
     margin-top: 5.8rem;
     margin-bottom: 5rem;
 }
 
-figure { 
+section figure { 
     display: flex;
     gap: 1.875rem;
     justify-content: center;    
 }
  
-figure img {
+section figure img {
    width: 16rem; 
    border-radius: .5rem;   
+}
+
+section .text {
+    display: inline-block;
+    margin-top: 5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+section .text .text1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D96A9;
+    margin-bottom: 1rem;
+}
+
+section .text .title2 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    color: #28283D;
+    margin-bottom: 2rem;
+}
+
+section .text .text2 {
+   
+    color: #87879D;           
+    font-weight: 500;
+    font-size: 1.125rem;
+    width: 33.75rem;
+    margin-bottom: 4.5rem;
 }
 
 
