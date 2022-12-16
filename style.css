@@ -1,28 +1,30 @@
 body {
-    border: 1px solid red;
-    width: 1440px;
-    
+   
+    width: 90rem;
+    max-width: 100%;
     background: #F2F2F2;
     margin: auto;
     text-align: center;
     font-family: 'Red Hat Display';
     
+    
 }
 
 header {
-    margin-top: 80px;
-    margin-bottom: 61px;
+    margin-top: 5rem;
+    margin-bottom: 3.75rem;
     
 }
 
 main {
     display: flex;
     align-items: center;
-    gap: 88px;
+    gap: 5.5rem;
+    overflow: hidden;
 }
 
 .mainMid h1 {
-    width: 445px;
+   
     font-size: 4rem;
     font-weight: 900;
     line-height: 4rem;
@@ -31,31 +33,30 @@ main {
 }
 
 .mainMid p {  
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.625rem;
     color: #87879D;
 }
 
 .btnMain {
-    padding: 16px 40px; 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;;
+    padding: 1rem; 40px; 
     font-family: 'Red Hat Display';
     font-style: normal;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 1rem;;
     color: #FFFFFF;
     cursor: pointer;
     border: 0;
-    border-radius: 29px;
-    
-    
-   
-    
+    border-radius: 1.875rem;
 }
 
 .btnMain.-first {
     background: #4D96A9;
-    margin-right: 8px;
+    
 }
 
 .btnMain.-first span {
@@ -64,8 +65,8 @@ main {
 
 .btnMain.-second {
     background: #855FB1;
-    padding: 16px 29px;
-    margin-left: 8px;
+    padding: 1rem 1.8125rem;
+    
 }
 
 .btnMain.-first:hover {
@@ -76,3 +77,33 @@ main {
     background: #B18BDD;
 
 }    
+
+.heroLeft {
+    margin-left: -2rem; 
+}
+
+.heroRight {
+    margin-right: -2rem;
+}
+
+
+
+
+section .step {
+    margin-top: 5.8rem;
+    margin-bottom: 5rem;
+}
+
+figure { 
+    display: flex;
+    gap: 1.875rem;
+    justify-content: center;    
+}
+ 
+figure img {
+   width: 16rem; 
+   border-radius: .5rem;   
+}
+
+
+  
